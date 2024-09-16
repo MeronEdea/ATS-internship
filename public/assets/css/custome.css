@@ -11,7 +11,7 @@ body{
 }
 
 .top-head-schedule h5 {
-    font-family: 'Poppins';
+    font-family: 'sans serif';
     font-size: 16px;
     color: #2D3748;
     width: 196px;
@@ -86,7 +86,7 @@ body{
 }
 
 .bg-white-custom h5{
-    font-family: 'Poppins';
+    font-family: 'sans serif';
     font-size: 16px;
     color: #2D3748;
 }
@@ -131,7 +131,7 @@ body{
 }
 
 .schedule-header {
-    font-family: 'Poppins';
+    font-family: 'sans serif';
     font-size: 22px;
     font-weight: 600;
     line-height: 33px;
@@ -150,7 +150,7 @@ body{
 }
 
 .search-bar .form-control {
-    font-family: 'Poppins';
+    font-family: 'sans serif';
     background-color: #F9FBFF;
     border-radius: 0 15px 15px 0;
     border: none;
@@ -167,11 +167,11 @@ body{
     border-radius: 10px 0 0 10px;
     padding: 8px 12px;
     border: none;
-    font-family: 'Poppins';
+    font-family: 'sans serif';
 }
 
 .filter-bar .form-select {
-    font-family: 'Poppins';
+    font-family: 'sans serif';
     height: 38px;
     background-color: #F9FBFF;
     border-radius: 0 10px 10px 0;
@@ -182,7 +182,7 @@ body{
 .custom-table {
     border-collapse: collapse;
     width: 100%;
-    font-family: 'Poppins';
+    font-family: 'sans serif';
 }
 
 .custom-table th {
@@ -222,7 +222,7 @@ body{
     border: none;
     border-radius: 5px;
     color: #404B52;
-    font-family: 'Poppins';
+    font-family: 'sans serif';
     text-decoration: none;
     background-color: #EEEEEE;
     transition: background-color 0.3s, color 0.3s;
@@ -246,7 +246,7 @@ body{
 }
 
 .form-row a{
-    font-family: 'Poppins';
+    font-family: 'sans serif';
     color: #FEC400;
 }
 
@@ -291,7 +291,7 @@ body{
 
 .container-upload-image .upload a,
 .container-upload-image .upload i {
-    color: #483EA8 !important; /* Ensure it overrides any other conflicting rules */
+    color: #483EA8 !important;
     font-family: 'Mulish';
 }
 
@@ -315,7 +315,7 @@ body{
 }
 
 .container-upload-image  h5 {
-    font-family: 'Poppins';
+    font-family: 'sans serif';
     font-size: 16px;
     color: #2D3748;
 }
@@ -336,7 +336,189 @@ body{
 }
 
 .notification-card  h5 {
-    font-family: 'Poppins';
+    font-family: 'sans serif';
     font-size: 16px;
     color: #2D3748;
+}
+
+.card a{
+    width: 73px;
+    height: 30px;
+}
+
+.btn-dark {
+    background-color: #F6CD56; 
+    border-color: #F6CD56;
+    color: #000;
+    font-family: 'sans serif';
+    font-weight: bold;
+}
+
+.btn-normal {
+    background-color: #FCF0CC;
+    border-color: #F6CD56;
+    color: #000;
+    font-family: 'sans serif';
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: #d3d3d3;
+    border-color: #d3d3d3;
+    color: #000;
+    font-family: 'sans serif';
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    height: 500px;
+}
+
+.card-body {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.card input,
+.card select {
+    width: 100%;
+    height: 57px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.card h5{
+    font-family: 'sans serif';
+    font-size: 16px;
+    color: #2D3748;
+    font-weight: bold;
+}
+
+/* ************************************** */
+
+.icon i{
+    background-color: #F6CD56;
+}
+
+.trip-summary h5{
+    text-align: left;
+    margin-top: 15px;
+}
+
+.trip-summary p {
+    font-size: 14px;
+    color: #A0AEC0;
+    text-align: left;
+}
+
+.trip-categories {
+    display: flex;
+    justify-content: space-around;
+}
+
+.category {
+    font-size: 14px;
+    color: #333;
+}
+
+.graph {
+    background-color: #ECB22E; 
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 10px;          
+    box-sizing: border-box; 
+}
+
+.card i {
+    background-color: #ECB22E;
+    color: #FFFFFF;
+    width: 30px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.small-bar {
+    height: 4px;
+    background-color: #F1F1F1;
+    border-radius: 2px;
+    margin-top: 5px;
+    width: 80px;
+}
+
+.bar-fill {
+    height: 100%;
+    background-color: #FFC107;
+    border-radius: 2px;
+}
+
+.category-title {
+    font-size: 14px;
+    color: #A0AEC0;
+    font-weight: normal;
+}
+
+.category-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.income-graph {
+    height: 300px;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: #A0AEC0;
+    text-align: left;
+}
+
+.income-span{
+    color: #FFC107;
+}
+
+.dashboard-small-card{
+    height: 80px;
+}
+
+.card-title {
+    font-size: 12px;
+    color: #A0AEC0;
+}
+
+.card-value {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2D3748;
+}
+
+.driver-dashboard-container {
+    height: 812px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
 }
