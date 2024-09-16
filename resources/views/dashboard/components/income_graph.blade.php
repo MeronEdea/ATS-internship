@@ -10,7 +10,8 @@
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{{asset('assets/js/chart.js')}}"></script>
+{{-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> --}}
 <script>
     var currentYearIncome = @json($currentYearIncome);
     var lastYearIncome = @json($lastYearIncome);
